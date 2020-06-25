@@ -1,6 +1,6 @@
 def square_array(array)
-while array.length.times do |index|
-binding.pry
+  index = 0 
+while (index < array.length )
   array[index] = array[index]**2 
 end
 array
