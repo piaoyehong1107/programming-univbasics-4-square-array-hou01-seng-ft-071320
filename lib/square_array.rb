@@ -1,8 +1,8 @@
+require 'pry'
 def square_array(array)
-  index = 0 
-while  (index < array.length )
+while array.length.times { |index|
+binding.pry
   array[index] = array[index]**2 
-  index +=1
-end
+}
 array
 end
